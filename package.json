@@ -2,7 +2,10 @@
   "name": "weatherofmine",
   "version": "1.0.0",
   "description": "I dunno hontou ni",
-  "main": "index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +13,8 @@
     "weather"
   ],
   "author": "Florentin Flower",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
 }
