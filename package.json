@@ -1,0 +1,14 @@
+{
+  "name": "weatherofmine",
+  "version": "1.0.0",
+  "description": "I dunno hontou ni",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Florentin Flower",
+  "license": "ISC"
+}
